@@ -24,7 +24,7 @@ export function Navbar() {
         <a href="#" className="flex items-center gap-2.5">
           <Logo size={28} />
           <span className="font-semibold text-sm tracking-tight">
-            Inertia Labs
+            Inertia labs
           </span>
         </a>
         <a

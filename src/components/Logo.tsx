@@ -12,7 +12,7 @@ export function Logo({
       viewBox="0 0 100 100"
       fill="currentColor"
       className={className}
-      aria-label="Inertia Labs logo"
+      aria-label="Inertia labs logo"
     >
       <g transform="translate(50, 50)">
         {/* Cardinal spokes (wider) with slight clockwise offset */}

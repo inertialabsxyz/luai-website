@@ -10,22 +10,22 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Inertia Labs | Trust Infrastructure for AI Agent Execution",
+  title: "Inertia labs | Trust Infrastructure for AI Agent Execution",
   description:
     "Luai is a deterministic execution layer for AI-generated workflows, with policy controls and audit-ready traces.",
   metadataBase: new URL("https://inertialabs.xyz"),
   openGraph: {
-    title: "Inertia Labs | Trust Infrastructure for AI Agent Execution",
+    title: "Inertia labs | Trust Infrastructure for AI Agent Execution",
     description:
       "Luai — a deterministic execution layer for AI-generated workflows.",
     url: "https://inertialabs.xyz",
-    siteName: "Inertia Labs",
+    siteName: "Inertia labs",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Inertia Labs | Trust Infrastructure for AI Agent Execution",
+    title: "Inertia labs | Trust Infrastructure for AI Agent Execution",
     description:
       "Luai — a deterministic execution layer for AI-generated workflows.",
   },

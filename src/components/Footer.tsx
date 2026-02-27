@@ -6,7 +6,7 @@ export function Footer() {
       <div className="max-w-[1200px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
         <div className="flex items-center gap-2.5">
           <Logo size={24} />
-          <span className="font-semibold text-sm">Inertia Labs</span>
+          <span className="font-semibold text-sm">Inertia labs</span>
         </div>
 
         <div className="flex items-center gap-6 text-sm text-text-tertiary">
@@ -20,7 +20,7 @@ export function Footer() {
         </div>
 
         <p className="text-sm text-text-tertiary">
-          &copy; 2026 Inertia Labs
+          &copy; 2026 Inertia labs
         </p>
       </div>
     </footer>

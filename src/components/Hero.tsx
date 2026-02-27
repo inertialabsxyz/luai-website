@@ -7,8 +7,11 @@ export function Hero() {
 
       <div className="relative max-w-[800px] mx-auto text-center">
         <AnimateOnScroll>
-          <p className="text-sm font-medium text-accent tracking-wide uppercase mb-6">
-            Inertia Labs
+          <p className="text-sm font-medium text-accent tracking-wide uppercase mb-2">
+            Inertia labs
+          </p>
+          <p className="text-sm text-text-tertiary mb-6">
+            Momentum in motion
           </p>
         </AnimateOnScroll>
 
