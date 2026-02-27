@@ -65,7 +65,7 @@ export function DesignPartnerCTA() {
         </div>
 
         <AnimateOnScroll delay={200}>
-          <div className="bg-white rounded-xl border border-border p-1">
+          <div className="bg-surface-elevated rounded-xl border border-border p-1">
             {/* Replace FORM_ID with your Tally form ID */}
             <iframe
               data-tally-src="https://tally.so/embed/FORM_ID?alignLeft=1&hideTitle=1&transparentBackground=1"

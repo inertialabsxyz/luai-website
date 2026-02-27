@@ -10,7 +10,7 @@ export function SectionWrapper({
   narrow?: boolean;
 }) {
   return (
-    <section id={id} className={`py-20 md:py-32 px-6 ${className}`}>
+    <section id={id} className={`py-16 md:py-24 px-6 ${className}`}>
       <div
         className={`mx-auto ${narrow ? "max-w-[800px]" : "max-w-[1200px]"}`}
       >

@@ -23,7 +23,7 @@ export function Audience() {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
         {audiences.map((audience, i) => (
           <AnimateOnScroll key={i} delay={i * 80}>
-            <div className="flex items-center gap-3 p-4 rounded-lg bg-white border border-border-subtle">
+            <div className="flex items-center gap-3 p-4 rounded-lg bg-surface-elevated border border-border-subtle">
               <span className="h-1.5 w-1.5 rounded-full bg-accent" />
               <span className="text-text-secondary font-medium text-sm">
                 {audience}

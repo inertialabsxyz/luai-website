@@ -27,7 +27,7 @@ export function Problem() {
       <div className="space-y-4">
         {problems.map((text, i) => (
           <AnimateOnScroll key={i} delay={i * 80}>
-            <div className="flex items-start gap-3 p-4 bg-white rounded-lg border border-border-subtle">
+            <div className="flex items-start gap-3 p-4 bg-surface-elevated rounded-lg border border-border-subtle">
               <span className="mt-1.5 h-2 w-2 rounded-full bg-accent shrink-0" />
               <p className="text-text-secondary">{text}</p>
             </div>

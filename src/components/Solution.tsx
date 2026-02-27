@@ -85,7 +85,7 @@ export function Solution() {
           const Icon = feature.icon;
           return (
             <AnimateOnScroll key={i} delay={i * 100}>
-              <div className="p-6 rounded-xl border border-border hover:border-accent/30 bg-white hover:shadow-sm transition-all group">
+              <div className="p-6 rounded-xl border border-border hover:border-accent/30 bg-surface-elevated hover:shadow-sm transition-all group">
                 <div className="w-10 h-10 rounded-lg bg-accent-subtle flex items-center justify-center mb-4 text-accent group-hover:bg-accent-light transition-colors">
                   <Icon />
                 </div>
