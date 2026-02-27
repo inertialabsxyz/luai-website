@@ -15,15 +15,16 @@ export function Logo({
       aria-label="Inertia Labs logo"
     >
       <g transform="translate(50, 50)">
-        {/* 8 rectangular spokes radiating from center, matching the starburst logo */}
-        <rect x={-6} y={-46} width={12} height={32} transform="rotate(0)" />
-        <rect x={-4} y={-44} width={8} height={30} transform="rotate(45)" />
-        <rect x={-6} y={-46} width={12} height={32} transform="rotate(90)" />
-        <rect x={-4} y={-44} width={8} height={30} transform="rotate(135)" />
-        <rect x={-6} y={-46} width={12} height={32} transform="rotate(180)" />
-        <rect x={-4} y={-44} width={8} height={30} transform="rotate(225)" />
-        <rect x={-6} y={-46} width={12} height={32} transform="rotate(270)" />
-        <rect x={-4} y={-44} width={8} height={30} transform="rotate(315)" />
+        {/* Cardinal spokes (wider) with slight clockwise offset */}
+        <rect x={-7} y={-48} width={14} height={36} transform="rotate(5)" />
+        <rect x={-7} y={-48} width={14} height={36} transform="rotate(95)" />
+        <rect x={-7} y={-48} width={14} height={36} transform="rotate(185)" />
+        <rect x={-7} y={-48} width={14} height={36} transform="rotate(275)" />
+        {/* Diagonal spokes (narrower) with slight clockwise offset */}
+        <rect x={-5} y={-44} width={10} height={32} transform="rotate(50)" />
+        <rect x={-5} y={-44} width={10} height={32} transform="rotate(140)" />
+        <rect x={-5} y={-44} width={10} height={32} transform="rotate(230)" />
+        <rect x={-5} y={-44} width={10} height={32} transform="rotate(320)" />
       </g>
     </svg>
   );

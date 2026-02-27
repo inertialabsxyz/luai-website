@@ -29,6 +29,9 @@ export const metadata: Metadata = {
     description:
       "Luai — a deterministic execution layer for AI-generated workflows.",
   },
+  icons: {
+    icon: "/favicon.svg",
+  },
   robots: { index: true, follow: true },
 };
 
