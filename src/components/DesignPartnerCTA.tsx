@@ -14,7 +14,7 @@ const benefits = [
 export function DesignPartnerCTA() {
   useEffect(() => {
     const existing = document.querySelector(
-      'script[src="https://tally.so/widgets/embed.js"]'
+      'script[src="https://tally.so/widgets/embed.js"]',
     );
     if (!existing) {
       const script = document.createElement("script");
@@ -68,7 +68,7 @@ export function DesignPartnerCTA() {
           <div className="bg-surface-elevated rounded-xl border border-border p-1">
             {/* Replace FORM_ID with your Tally form ID */}
             <iframe
-              data-tally-src="https://tally.so/embed/FORM_ID?alignLeft=1&hideTitle=1&transparentBackground=1"
+              data-tally-src="https://tally.so/embed/https://tally.so/r/D4Veeb?alignLeft=1&hideTitle=1&transparentBackground=1"
               loading="lazy"
               width="100%"
               height="500"
